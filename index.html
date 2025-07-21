@@ -11,23 +11,31 @@
       <h1>Top 5 Cryptocurrencies</h1>
     </header>
 
-    <main>
-      <section id="top-5-coins">
-        <p>Loading data...</p>
+    <main class="dashboard">
+      <section class="top-coins-section">
+        <h2>Top 5 Cryptocurrencies</h2>
+        <div id="top-5-coins" class="coin-row">
+          <p>Loading data...</p>
+        </div>
       </section>
 
-      <section id=""watchlist>>
-        <h2>Your Watchlist</h2>
-        <ul id="watchlist-items">
-          <li>Bitcoin</li>
-          <li>Ethereum</li>
-          <li>OSCAR</li>
-        
+      <section class="lower-section">
+        <div class="watchlist-container">
+          <h2>Your Watchlist</h2>
+          <div id="watchlist-items" class="coin-row">
+            //JS will populate this section with watchlist
+          </div>
+        </div>
+
+        <div class="coin-details-container">
+          <h2>Selected Coin Details</h2>
+          <div id="coin-details" class="coin-details">
+            //will hold chart/details of selected coin
+            <p>Select a coin to see details.</p>
+          </div>
+        </div>
       </section>
-        
     </main>
-
-
 
     <script src="script.js" defer></script>
   </body>
