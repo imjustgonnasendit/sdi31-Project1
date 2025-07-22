@@ -125,6 +125,8 @@ function addChartForCoin(coin) {
   chartWidget.setAttribute("currency", "usd");
   chartWidget.setAttribute("locale", "en");
   chartWidget.setAttribute("outlined", "true");
+  chartWidget.setAttribute("theme", "dark");
+  chartWidget.setAttribute("outlined", "false");
   chartWidget.style.height = "300px";
   chartWidget.style.width = "100%";
 

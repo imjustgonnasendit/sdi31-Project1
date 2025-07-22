@@ -2,7 +2,8 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background-color: #121212;
+  background: linear-gradient(to bottom right, #121212, #1e1e1e, #2a2a2a);
+  color: #121212;
   color: #ffffff;
 }
 
@@ -28,11 +29,16 @@ header {
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   margin: 0;
   color: #4bdfd0;
 }
-
+h2 {
+  font-size: 1.75rem;
+  margin: 0;
+  color: #4bdfd0;
+  padding: 1rem;
+}
 /* Top Coins Row */
 .top-coins-section .coin-row {
   display: flex;
@@ -59,8 +65,9 @@ h1 {
 /* Watchlist Panel */
 .watchlist-container {
   flex: 1;
-  background-color: #1e1e1e;
-  color: #ffffff;
+  background: linear-gradient(to bottom right, #121212, #1e1e1e, #2a2a2a);
+  color: #121212;
+
   padding: 1rem;
   border-radius: 8px;
   box-shadow: 0 2px 5px #4bdfd0;
@@ -132,7 +139,8 @@ button:hover {
 .chart-container {
   flex: 2;
   margin-top: 2rem;
-  background-color: #1e1e1e;
+  background: linear-gradient(to bottom right, #121212, #1e1e1e, #2a2a2a);
+  color: #121212;
   padding: 1rem;
   border-radius: 8px;
   overflow-y: auto;
