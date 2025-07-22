@@ -4,9 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
-    <script src="https://widgets.coingecko.com/coingecko-coin-price-chart-widget.js"></script>
-    <script src="script.js" defer></script>
+    <title>DEGEN DASH</title>
   </head>
 
   <body>
@@ -34,21 +32,24 @@
         <div class="watchlist-container">
           <h2>Your Watchlist</h2>
           <div id="watchlist-items" class="coin-column">
-            <!-- JS will populate this section with watchlist -->
+            <!-- JS will populate this section -->
           </div>
         </div>
 
         <div class="chart-container">
-          <h2>Coin Charts</h2>
-          <gecko-coin-price-chart-widget
-            coin-id="dogecoin"
-            currency="usd"
-            locale="en"
-            outlined="true"
-            style="width: 100%; height: 300px;">
-          </gecko-coin-price-chart-widget>
+          <h2>Coin Chart</h2>
+          <div id="chart-area">
+            <script src="https://widgets.coingecko.com/gecko-coin-price-chart-widget.js"></script>
+            <gecko-coin-price-chart-widget
+              locale="en"
+              outlined="true"
+              initial-currency="usd"
+            ></gecko-coin-price-chart-widget>
+          </div>
+        </div>
       </section>
     </main>
+
+    <script src="script.js" defer></script>
   </body>
 </html>
-<search></search>
